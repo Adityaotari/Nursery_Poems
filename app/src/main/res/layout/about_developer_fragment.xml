@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:backgroundTint="#83C0C1">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:text="About Developer"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:src="@drawable/myprofile"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:text="Aditya Otari is a seasoned app developer with a wealth of experience and expertise in Android development. Having completed the Android Expert certification, Aditya has demonstrated a deep understanding of the Android platform and its intricacies. With a passion for crafting high-quality and user-friendly applications, Aditya has embarked on numerous projects that showcase his dedication to the field of mobile app development. "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imgProfile"
+        tools:ignore="MissingConstraints"
+        android:justificationMode="inter_word"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

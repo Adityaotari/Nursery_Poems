@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:backgroundTint="#83C0C1">
+    
+    <TextView
+        android:id="@+id/txt"
+        android:text="About App"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:text="The Nursery Poems app is a delightful and educational resource designed specifically for parents and their young children. Featuring a collection of classic nursery poems, this app provides a perfect introduction to the world of rhyme and rhythm for toddlers and preschoolers. With its user-friendly interface and engaging content, Nursery Poems offers a fun and interactive way for parents to bond with their children while fostering early literacy skills."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txt"
+        tools:ignore="MissingConstraints"
+        android:justificationMode="inter_word"
+        />
+
+    <TextView
+        android:id="@+id/txtInfo1"
+        android:text="With Nursery Poems, parents can create lasting memories as they share these cherished nursery rhymes with their little ones. Whether it's through interactive storytelling sessions or sing-alongs, this app serves as a delightful companion on the journey of early childhood development, fostering a love for language and literature that will last a lifetime."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtInfo"
+        tools:ignore="MissingConstraints"
+        android:justificationMode="inter_word"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
